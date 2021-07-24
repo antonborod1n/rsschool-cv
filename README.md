@@ -1,2 +1,2 @@
 # rsschool-cv
-My CV
+My CV https://antonborod1n.github.io/rsschool-cv/index.html
