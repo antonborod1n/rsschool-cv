@@ -1,0 +1,223 @@
+/* RESET */
+
+html{
+    box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before{
+    box-sizing: inherit;
+}
+
+ul[class],
+ol[class]{
+    padding: 0;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+ul[class]{
+    list-style: none;
+}
+  
+img {
+    max-width: 100%;
+    display: block;
+}
+  
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
+
+a[class]{
+    text-decoration: none;
+}
+
+body{
+    min-height: 100vh;
+    font-family: 'Fira Sans Condensed', sans-serif;
+    color: #333333;
+    font-size: 24px;
+    line-height: 29px;
+}
+
+.container{
+    max-width: 1220px;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+
+.main{
+    background-color: #E5E5E5;;
+}
+
+.title{
+    font-family: 'Fira Sans Condensed', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 36px;
+    color: #FF7946;
+    margin: 30px 0;
+}
+
+/* 
+font-family: 'Fira Sans Condensed', sans-serif;
+font-family: 'Roboto Condensed', sans-serif;
+ */
+
+.header{
+    padding: 100px 0 22px;
+}
+
+.info{
+    display: flex;
+    justify-content: space-between;
+}
+
+.info__img{
+    border-radius: 50%;
+    margin-bottom: -60px;
+    margin-left: 105px;
+}
+
+.info__text-item{
+    background-color: #FF7946;
+    border-radius: 15px;
+    max-width: 360px;
+}
+
+.info__text-name{
+    font-family: 'Fira Sans Condensed', sans-serif;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 43px;
+    color: #333333;
+    padding: 92px 67px 16px;  
+}
+
+.info__text-profession{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    color: #EFF0F0;
+    padding: 0 55px 30px;
+}
+
+.info__contact-list{
+    position: relative;
+}
+
+.info__contact-items{
+    margin-bottom: 20px;
+}
+
+.info__contact-items span{
+    display: block;
+    margin-left: 30px;
+}
+
+.info__contact-items .mobile::after{
+    background-image: url('../images/phone.svg');
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 24px;
+    height: 24px;
+}
+
+.info__contact-items .email::after{
+    background-image: url('../images/email.svg');
+    position: absolute;
+    content: "";
+    top: 80px;
+    left: 0;
+    width: 24px;
+    height: 24px;
+}
+
+.info__contact-items .adress::after{
+    background-image: url('../images/location.svg');
+    position: absolute;
+    content: "";
+    top: 156px;
+    left: 0;
+    width: 24px;
+    height: 24px;
+}
+
+.info__contact-phone{
+    color: #838385;
+}
+
+.info__contact-items a{
+    color: #838385;
+}
+
+.content__inner-edu-skils,
+.content__inner-experience,
+.content__job{
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 10px 60px 20px 30px;
+    margin-bottom: 20px;
+}
+
+.content__item{
+    padding-bottom: 5px;
+}
+
+.content__item span{
+    color: #838385;
+}
+
+.content__job{
+    margin-bottom: 70px;
+}
+
+.footer{
+    padding: 50px 0;
+    border-top: 1px solid #838385;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer__title{
+    margin-bottom: 10px;
+}
+
+.footer__content span{
+    color: #838385;
+}
+
+.footer__social-list{
+    display: flex;
+}
+.footer__social-item{
+    margin-left: 20px;
+}
